@@ -1,29 +1,31 @@
+*[Leer en español](README.es.md)*
+
 # TargetStance
 
-Addon minimalista para **World of Warcraft 3.3.5a (WotLK)** que muestra la **postura actual de tu objetivo** cuando es un guerrero.
+A minimal addon for **World of Warcraft 3.3.5a (WotLK)** that shows your **target's current stance** when the target is a warrior.
 
-**Versión:** 1.0 · **Autor:** Nidhaus
+**Version:** 1.0 · **Author:** Nidhaus
 
-## Para qué sirve
+## Why it exists
 
-Contra un guerrero, saber si está en Batalla, Defensiva o Berserker cambia por completo cómo jugás el intercambio: qué interrupciones esperar, si va a poder usar Pummel, cuánto daño le vas a hacer. El addon lee la postura del objetivo y la muestra al instante, sin tener que revisar sus buffs a mano.
+Against a warrior, knowing whether they are in Battle, Defensive or Berserker stance changes how you play the trade entirely: which interrupts to expect, whether Pummel is available to them, how much damage you will do. The addon reads the target's stance and shows it immediately, instead of making you scan their buffs by hand.
 
-## Qué hace
+## What it does
 
-- Detecta y muestra la postura del objetivo si es guerrero.
-- Se actualiza automáticamente al cambiar de objetivo o cuando el objetivo cambia de postura.
-- Muy liviano: un solo archivo Lua, sin dependencias ni base de datos.
+- Detects and displays the target's stance when the target is a warrior.
+- Updates automatically when you switch targets or when the target changes stance.
+- Very light: a single Lua file, no dependencies, no saved variables.
 
-## Instalación
+## Installation
 
-1. Cerrá el juego.
-2. Copiá la carpeta `TargetStance` dentro de `World of Warcraft\Interface\AddOns\`.
-3. Iniciá el juego y activá el addon en el selector de la pantalla de personajes.
+1. Close the game.
+2. Copy the `TargetStance` folder into `World of Warcraft\Interface\AddOns\`.
+3. Start the game and enable the addon on the character selection screen.
 
-## Compatibilidad
+## Compatibility
 
-Interface 30300 — WotLK 3.3.5a. Probado en Warmane.
+Interface 30300 — WotLK 3.3.5a. Tested on Warmane.
 
-## Licencia
+## License
 
-Uso libre. Si lo redistribuís o lo usás como base, mantené el crédito al autor.
+Free to use. If you redistribute it or build on it, keep the credit to the author.
