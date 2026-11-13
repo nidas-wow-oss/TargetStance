@@ -2,6 +2,7 @@
 ## Title: |cffffffffT|r|cffffffffa|r|cffffffffr|r|cffffffffg|r|cffffffffe|r|cfffffffft|r|cff00ff00S|r|cff00ff00t|r|cff00ff00a|r|cff00ff00n|r|cff00ff00c|r|cff00ff00e|r
 ## Notes: Muestra la postura actual del objetivo si es guerrero.
 ## Author: Nidhaus
-## Version: 1.0
+## Version: 1.1
+## SavedVariables: TargetStanceDB
 
 TargetStance.lua
